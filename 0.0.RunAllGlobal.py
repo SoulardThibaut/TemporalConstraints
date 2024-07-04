@@ -31,7 +31,7 @@ if __name__ == '__main__':
     hdtsparql_file = args.hdt_querier
     hdt_file = args.hdt_file
     
-                    ##### DATA GENERATION
+    ##### DATA GENERATION
     print("Data Generation")
 
     os.chdir("./1.DataGeneration")
