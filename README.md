@@ -7,12 +7,12 @@ The data is stored in the folder **0.Data** and is split into multiple zip files
 * `unzip Data.zip` 
 
 The data is then organised following per class with the following hierarchy : 
-  * data.quintuplet
-  * train_cst_knowledge.quintuplet
-  * train_ML.quintuplet
-  * train_ML.gt
-  * valid.quintuplet
-  * valid.gt
+  * data.quintuplet : the full positive data non split 
+  * train_cst_knowledge.quintuplet : the training positive data to discover the Contraints and used a the description of entities
+  * train_ML.quintuplet : the training postive/negative data for the ML algorithm
+  * train_ML.gt : the ground truth for the train_ML data
+  * valid.quintuplet 
+  * valid.gt 
   * test.quintuplet
   * test.gt
 
