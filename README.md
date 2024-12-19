@@ -17,5 +17,5 @@ The data is then organised following per class with the following hierarchy :
   * test.gt
 
 # Runable experiment
-
-`python3 0.2.RunOnlyTests.py -type Q6256`
+To run the experiment described in the paper 
+`python3 0.3.RunStepTuning.py -type Q6256`
