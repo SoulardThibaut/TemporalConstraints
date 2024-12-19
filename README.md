@@ -16,7 +16,7 @@ The data is then organised following per class with the following hierarchy :
   * test.quintuplet
   * test.gt
 
-The data can be generated through the use of a HDT file and 
+The data can be generated for a new class through the use of a HDT file and a query script such as **Sparql.jar**. All the script are under the folder **1.DataGeneration** and a general script can launch the process with **0.1.GenData.py**.
 
 # Runable experiment
 To run the experiment described in the paper, the following packages are required : 
@@ -28,4 +28,4 @@ The experiment is launched by the following script, where Q6256 can be replaced 
 
 `python3 0.3.RunStepTuning.py -type Q6256`
 
-But sub experiment can be launched through the programs described in the folders **1.**, **2.** and **3.**. Examples of sub experiment are presented in the 0.3.RunStepTuning.py file.
+But sub experiment can be launched through the programs described in the folders **1.**, **2.** and **3.**. Examples of sub experiment are presented in the **0.3.RunStepTuning.py** file.
