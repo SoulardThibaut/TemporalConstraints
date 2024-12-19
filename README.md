@@ -29,3 +29,7 @@ The experiment is launched by the following script, where Q6256 can be replaced 
 `python3 0.3.RunStepTuning.py -type Q6256`
 
 But sub experiment can be launched through the programs described in the folders **1.**, **2.** and **3.**. Examples of sub experiment are presented in the **0.3.RunStepTuning.py** file.
+
+# Results 
+
+The results will be stored in the **0.Data** folder with a file per script and specific hyper_parameter.
