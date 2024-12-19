@@ -4,7 +4,7 @@ import copy
 import multiprocessing as mp
 from subprocess import DEVNULL, STDOUT, check_call
 
-sys.path.append("./../../..")
+sys.path.append("./..")
 import TimePackage as tp
 
 temporal_granularity = "D"
