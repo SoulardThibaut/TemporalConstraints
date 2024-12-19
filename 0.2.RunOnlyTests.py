@@ -7,29 +7,11 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '--relation',
-        default = 'P31',
-        type=str
-    )
-    parser.add_argument(
         '-type',
         type=str
     )
-    parser.add_argument(
-        '--hdt_querier',
-        default = './../../../../../sharewithserver/QueryHDT/SparqlHomemade2.jar',
-        type=str
-    )
-    parser.add_argument(
-        '--hdt_file',
-        default = './../../../../../Graphs_HDT/Wikidata/Wikidata_final.hdt',
-        type=str
-    )
     args = parser.parse_args()
-    relation = args.relation
     type_ent = args.type
-    hdtsparql_file = args.hdt_querier
-    hdt_file = args.hdt_file
     
                     ##### DATA GENERATION
     
