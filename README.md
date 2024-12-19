@@ -17,5 +17,11 @@ The data is then organised following per class with the following hierarchy :
   * test.gt
 
 # Runable experiment
-To run the experiment described in the paper 
+To run the experiment described in the paper, the following packages are required : 
+* Pandas
+* Sklearn
+* Numpy
+
+The experiment is launched by the following script, where Q6256 can be replaced by another class (i.e. Q82955, Q215380) :
+
 `python3 0.3.RunStepTuning.py -type Q6256`
