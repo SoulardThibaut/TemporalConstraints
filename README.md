@@ -7,7 +7,7 @@ The data is stored in the folder **0.Data** and is split into multiple zip files
 * `unzip Data.zip` 
 
 The data is then organised following per class with the following hierarchy : 
-  * data.quintuplet 
+  * data.quintuplet
   * train_cst_knowledge.quintuplet
   * train_ML.quintuplet
   * train_ML.gt
@@ -25,3 +25,5 @@ To run the experiment described in the paper, the following packages are require
 The experiment is launched by the following script, where Q6256 can be replaced by another class (i.e. Q82955, Q215380) :
 
 `python3 0.3.RunStepTuning.py -type Q6256`
+
+But sub experiment can be launched through the programs described in the folders 1., 2. and 3.
