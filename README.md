@@ -3,8 +3,8 @@ The source code for the ESWC'25 submission : Explainable Temporal Fact Validatio
 # Data 
 
 The data is stored in the folder **0.Data** and is split into multiple zip files, to unzip you have to run the following commands in the **0.Data** folder : 
-* `zip -s0 Data.zip --out DataGathered.zip`
-* `unzip DataGathered.zip` 
+* `cat Data_chunka* > Data.zip`
+* `unzip Data.zip` 
 
 The data is then organised following per class with the following hierarchy : 
   * data.quintuplet 
