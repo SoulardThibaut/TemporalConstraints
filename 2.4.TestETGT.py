@@ -28,8 +28,6 @@ if __name__ == '__main__':
     gt_pd = pd.read_csv(f"{path}valid.gt", names=["GT_value"])
 
     # Validy Threshold (vt) = 1 - Error Threshold (et)
-    vt = 0.95
-    gt = 5
     strat = "RxV"
 
 
