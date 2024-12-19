@@ -1,1 +1,1 @@
-The source code for the WSDM'25 submission : xplainable Temporal Fact Validation Through Temporal Constraints Discovery in Knowledge Graphs.
+The source code for the ISWC'25 submission : Explainable Temporal Fact Validation Through Constraints Discovery in Knowledge Graphs.
