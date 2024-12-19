@@ -1,6 +1,6 @@
 # The source code for the ESWC'25 submission : Explainable Temporal Fact Validation Through Constraints Discovery in Knowledge Graphs.
 
-# Data 
+## Data 
 
 The data is stored in the folder **0.Data** and is split into multiple zip files, to unzip you have to run the following commands in the **0.Data** folder : 
 * `cat Data_chunka* > Data.zip`
@@ -18,7 +18,7 @@ The data is then organised following per class with the following hierarchy :
 
 The data can be generated for a new class through the use of a HDT file and a query script such as **Sparql.jar**. All the script are under the folder **1.DataGeneration** and a general script can launch the process with **0.1.GenData.py**.
 
-# Runable experiment
+## Runable experiment
 To run the experiment described in the paper, the following packages are required : 
 * Pandas
 * Sklearn
@@ -30,6 +30,6 @@ The experiment is launched by the following script, where Q6256 can be replaced 
 
 But sub experiment can be launched through the programs described in the folders **1.**, **2.** and **3.**. Examples of sub experiment are presented in the **0.3.RunStepTuning.py** file.
 
-# Results 
+## Results 
 
 The results will be stored in the **0.Data** folder with a file per script and specific hyper_parameter.
