@@ -16,6 +16,8 @@ The data is then organised following per class with the following hierarchy :
   * test.quintuplet
   * test.gt
 
+The data can be generated through the use of a HDT file and 
+
 # Runable experiment
 To run the experiment described in the paper, the following packages are required : 
 * Pandas
@@ -26,4 +28,4 @@ The experiment is launched by the following script, where Q6256 can be replaced 
 
 `python3 0.3.RunStepTuning.py -type Q6256`
 
-But sub experiment can be launched through the programs described in the folders **1.**, **2.** and **3.**.
+But sub experiment can be launched through the programs described in the folders **1.**, **2.** and **3.**. Examples of sub experiment are presented in the 0.3.RunStepTuning.py file.
