@@ -15,10 +15,7 @@ if __name__ == '__main__':
         type=str
     )
     args = parser.parse_args()
-    relation = args.relation
     type_ent = args.type
-    hdtsparql_file = args.hdt_querier
-    hdt_file = args.hdt_file
 
     path = f"./0.Data/{type_ent}/"
     gt_pd = pd.read_csv(f"{path}valid.gt", names=["GT_value"])
