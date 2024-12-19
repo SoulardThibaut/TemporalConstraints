@@ -1,7 +1,7 @@
 import sys 
 import numpy as np
 
-sys.path.append("./../../..")
+sys.path.append("./..")
 import TimePackage as tp
 
 def to_common_uri(uri_relation):
